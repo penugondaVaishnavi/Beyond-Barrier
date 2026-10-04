@@ -1,6 +1,6 @@
 const API_BASE = (import.meta.env && import.meta.env.VITE_API_URL) 
   ? `${import.meta.env.VITE_API_URL.replace(/\/$/, '')}/api` 
-  : 'http://localhost:5000/api';
+  : 'https://beyond-barrier.onrender.com/api';
 
 function getHeaders() {
   const headers = {

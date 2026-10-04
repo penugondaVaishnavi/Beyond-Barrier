@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 import { getDynamicCareerPaths } from "../utils/careerEngine";
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://beyond-barrier.onrender.com";
 
 export default function StudentDashboard({
   student: propStudent,
