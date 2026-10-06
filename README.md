@@ -1,16 +1,82 @@
-# React + Vite
+# Beyond Barriers – AI-Integrated Personalized Study Planning System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 🔗 Live Demo
 
-Currently, two official plugins are available:
+🌐 **Project Website:** https://beyond-barrier.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+📂 **GitHub Repository:** https://github.com/penugondaVaishnavi/Beyond-Barrier
 
-## React Compiler
+## 📌 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Beyond Barriers is an AI-integrated web application designed to provide
+personalized study planning for students.
 
-## Expanding the Oxlint configuration
+The system analyzes student academic and course-related information and
+predicts:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Student Risk Level – Low, Medium, or High
+- Recommended Study Hours
+
+The predictions are used to provide personalized study guidance.
+
+## 🤖 Machine Learning Pipeline
+
+The project implements an end-to-end Machine Learning pipeline:
+
+1. Problem Identification
+2. Dataset Selection
+3. Data Preprocessing
+4. Algorithm Selection
+5. Model Building
+6. Hyperparameter Tuning
+7. Performance Evaluation
+
+### Machine Learning Models
+
+- **Random Forest Classifier** – Student Risk Level Prediction
+- **Gradient Boosting Regressor** – Recommended Study Hours Prediction
+
+### Hyperparameter Tuning
+
+GridSearchCV with 5-fold cross-validation was used to identify the best
+hyperparameters for both models.
+
+### Performance
+
+#### Classification
+
+- Accuracy: **99.33%**
+- Precision: **0.9935**
+- Recall: **0.9933**
+- F1-Score: **0.9934**
+
+#### Regression
+
+- MAE: **0.1587 hours**
+- RMSE: **0.2037 hours**
+- R² Score: **0.9664**
+
+## 🛠️ Technologies Used
+
+- React
+- Vite
+- Node.js
+- Express.js
+- MongoDB
+- Python
+- Flask
+- Scikit-learn
+- HTML
+- CSS
+- JavaScript
+
+## 📁 Project Structure
+
+```text
+Beyond-Barrier/
+├── backend/
+├── ml/
+├── public/
+├── src/
+├── package.json
+└── README.md
